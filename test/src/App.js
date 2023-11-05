@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Movie from './components/page/Movie';
-import Header from './components/page/Header';
-import Home from './components/page/Home';
-import Celebirity from './components/page/Celebirity';
-import Tv from './components/page/TV';
-import NotFound from './components/page/NotFound';
+import Movie from './components/pages/Movie';
+import Header from './components/Header';
+import Home from './components/pages/Home';
+import Celebirity from './components/pages/Celebirity';
+import Tv from './components/pages/TV';
+import NotFound from './components/pages/NotFound';
 
 function App() {
     return (

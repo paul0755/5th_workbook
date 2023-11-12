@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
+import adimg from '../img/Untitled.svg';
 
-export default function Ad(item) {
-  return (
-    <div>
-      
+const Ad = ({showAd})=>{
+  if(!showAd){
+    return null;
+  }
+
+  return(
+    <div className='ad-container'>
+      <img src={adimg} alt="ad"></img>
     </div>
   )
-}
+};
+
+export default Ad;

@@ -6,6 +6,7 @@ import Home from './components/pages/Home';
 import Celebirity from './components/pages/Celebirity';
 import Tv from './components/pages/TV';
 import NotFound from './components/pages/NotFound';
+import Login from './components/LoginControl';
 
 function App() {
     return (
@@ -17,7 +18,8 @@ function App() {
                     <Route path="/Movie" element={<Movie />}></Route>
                     <Route path="/Tv" element={<Tv />}></Route>
                     <Route path="/Celebirity" element={<Celebirity />}></Route>
-                    <Route path='*' element={<NotFound/>}></Route>
+                    <Route path="/log" element={<Login></Login>}></Route>
+                    <Route path="*" element={<NotFound />}></Route>
                 </Routes>
             </div>
         </BrowserRouter>
